@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+</head>
+<body>
+
+    <ul>
+        <li><a href="./car.html">Car</a></li>
+        <li><a href="./client.html">Client</a></li>
+        <li><a href="./message.html">Message</a></li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>BRAND</th>
+                <th>MODEL</th>
+                <th>CATEGORYID</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+    <br>
+    <form>
+        <div>
+            <label for="txtId">Id</label>
+            <input id="txtId" type="number" placeholder="Ingrese el id">
+        </div>
+        <div>
+            <label for="txtMarca">Marca</label>
+            <input id="txtMarca" type="text" placeholder="Ingrese la marca">
+        </div>
+        <div>
+            <label for="txtModelo">Modelo</label>
+            <input id="txtModelo" type="number" placeholder="Ingrese el modelo">
+        </div>
+        <div>
+            <label for="txtCategoria">CategoriaId</label>
+            <input id="txtCategoria" type="number" placeholder="Ingrese el id de la categoria">
+        </div>
+    </form>
+
+    <br>
+    <button onclick="crear()">Crear</button>
+    <button onclick="actualizar()">Actualizar</button>
+    <button onclick="eliminar()">Eliminar</button>
+
+    <script src="./script/car.js"></script>
+    
+</body>
+</html>
